@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'Ideafy AI - Herramienta de Visualización Impulsada por IA',
+    home: 'CreativeMind Studio - Herramienta de Visualización Impulsada por IA',
     features: 'Funciones',
     faq: 'FAQ',
     pricing: 'Precios',
@@ -8,13 +8,14 @@ export default {
     points: 'Puntos: {points}'
   },
   hero: {
-    title: 'Ideafy AI - Herramienta de Visualización Impulsada por IA',
-    subtitle: 'Convierte tus conceptos creativos en prototipos interactivos de alta fidelidad. Simplemente describe tus ideas y nuestra IA creará automáticamente prototipos de interfaz profesionales y visualmente atractivos, perfectos para el diseño de productos, pruebas de experiencia de usuario y colaboración en equipo.',
+    title: 'CreativeMind Studio - Herramienta de Visualización Impulsada por IA',
+    subtitle: 'Transforme sus ideas creativas en atractivos componentes HTML interactivos. Simplemente describa sus ideas, y nuestra IA creará automáticamente componentes UI profesionales y visualmente atractivos, perfectos para presentaciones de productos, pruebas de experiencia de usuario y trabajo en equipo. ¡Las funciones básicas son gratuitas de por vida con uso ilimitado!',
     tags: {
-      ai: 'Diseño IA',
-      interactive: 'Prototipo Interactivo',
-      fast: 'Generación Rápida',
-      professional: 'Resultado Profesional'
+      creative: 'Conversión Creativa',
+      interactive: 'Componentes Interactivos',
+      easy: 'Fácil de Usar',
+      professional: 'Resultado Profesional',
+      free: 'Gratuito de por Vida'
     }
   },
   upload: {
@@ -30,11 +31,14 @@ export default {
     needLogin: 'Por favor inicia sesión para cargar archivos'
   },
   input: {
-    submit: 'Enviar idea',
-    placeholder: 'Por favor, describe tus ideas creativas y funciones principales...'
+    submit: 'Enviar Idea',
+    placeholder: 'Por favor, describe tus ideas creativas y funciones principales...',
+    required: 'Por favor, ingresa tu contenido creativo',
+    maxLength: 'La longitud del contenido no puede exceder 2000 caracteres',
+    needLogin: 'Por favor, inicia sesión primero para enviar tu idea'
   },
   preview: {
-    title: 'Vista Previa de la Tarjeta de Autopresentación',
+    title: 'Vista Previa de Componente',
     download: 'Descargar HTML',
     copy: 'Copiar HTML',
     copySuccess: 'Copiado exitosamente',
@@ -42,32 +46,36 @@ export default {
     noContent: 'Sin contenido'
   },
   features: {
-    title: 'Funciones principales de Ideafy AI',
-    subtitle: 'Experimenta la herramienta de visualización de próxima generación - Diseño inteligente, resultado profesional, aplicación multifuncional',
+    title: 'Funciones Principales de CreativeMind Studio',
+    subtitle: 'Experimente la herramienta de visualización de próxima generación - Diseño inteligente, resultado profesional, aplicaciones multi-escenario, ¡las funciones básicas son gratuitas de por vida!',
     cards: {
-      ai: {
-        title: 'Diseño IA',
-        desc: 'Utiliza tecnología avanzada de IA para comprender automáticamente los requisitos creativos y crear prototipos de interfaz profesionales'
+      free: {
+        title: 'Gratuito de por Vida',
+        desc: 'Las funciones básicas de conversión creativa son completamente gratuitas sin límites de uso, haciendo la creatividad accesible para todos'
+      },
+      creative: {
+        title: 'Conversión Creativa',
+        desc: 'Conversión inteligente de descripciones creativas en hermosos componentes HTML interactivos, dando vida rápidamente a las ideas'
       },
       interactive: {
-        title: 'Prototipo Interactivo',
-        desc: 'Crea prototipos interactivos de alta calidad que admiten interacción del usuario y pruebas de experiencia'
+        title: 'Componentes Interactivos',
+        desc: 'Genera componentes de alta calidad con soporte para interacción del usuario, haciendo tus presentaciones más atractivas'
       },
       fast: {
         title: 'Generación Rápida',
-        desc: 'Crea prototipos completos en minutos, mejorando significativamente la eficiencia del diseño'
+        desc: 'Crea componentes interactivos completos en minutos, mejorando significativamente la eficiencia del diseño'
       },
       professional: {
         title: 'Resultado Profesional',
-        desc: 'Crea prototipos profesionales que cumplen con los estándares de diseño y están listos para el desarrollo'
+        desc: 'Genera componentes profesionales que cumplen con los estándares de diseño y están listos para el desarrollo'
       },
       customizable: {
-        title: 'Alta Personalización',
-        desc: 'Admite estilos personalizados, interacciones y diseños para diferentes necesidades'
+        title: 'Altamente Personalizable',
+        desc: 'Soporte para estilos, interacciones y diseños personalizados para diferentes necesidades'
       },
       shareable: {
         title: 'Compartir Fácil',
-        desc: 'Comparte prototipos con un clic para colaboración en equipo y recopilación de comentarios'
+        desc: 'Comparte componentes con un clic para colaboración en equipo y recopilación de comentarios'
       }
     },
     examples: {
@@ -120,8 +128,12 @@ export default {
   },
   faq: {
     title: 'Preguntas Frecuentes',
-    subtitle: 'Preguntas comunes sobre el Generador de Tarjetas de Autopresentación con IA',
+    subtitle: 'Preguntas comunes sobre la conversión creativa y la generación de componentes interactivos',
     questions: [
+      {
+        q: '¿Esta herramienta es gratuita?',
+        a: '¡Las funciones básicas son completamente gratuitas! Ofrecemos un servicio de conversión creativa gratuito de por vida sin límites de uso. Puede usar nuestras funciones básicas en cualquier momento para transformar sus ideas creativas. Si necesita funciones más avanzadas (como procesamiento por lotes, acceso a API, etc.), ofrecemos planes de pago opcionales.'
+      },
       {
         q: '¿Para qué puedo usar esta herramienta?',
         a: 'Puedes crear tarjetas de autopresentación profesionales para perfiles de redes sociales, solicitudes de empleo, sitios web personales o cualquier otra ocasión donde necesites presentarte.'
@@ -145,26 +157,26 @@ export default {
     loading: 'Cargando...'
   },
   workflow: {
-    title: 'Cómo usar Ideafy AI',
-    subtitle: '3 pasos simples para convertir ideas en prototipos',
+    title: 'Cómo Usar CreativeMind Studio',
+    subtitle: '3 Pasos Simples para Transformar Ideas en Componentes Interactivos',
     steps: {
       submit: {
-        title: 'Enviar idea',
+        title: 'Enviar Idea',
         desc: 'Describe tu concepto creativo y requisitos'
       },
       generate: {
         title: 'Generación IA',
-        desc: 'La IA analiza automáticamente los requisitos y crea el prototipo'
+        desc: 'La IA analiza automáticamente los requisitos y crea componentes interactivos'
       },
       preview: {
-        title: 'Vista previa y optimización',
-        desc: 'Revisa el efecto del prototipo y realiza ajustes'
+        title: 'Vista Previa y Optimización',
+        desc: 'Revisa los efectos de los componentes y realiza ajustes'
       }
     }
   },
   login: {
-    title: 'Iniciar sesión en Ideafy AI',
-    subtitle: 'Experimente las mejores características de Ideafy AI: procesamiento de documentos más rápido y preservación avanzada de formato',
+    title: 'Iniciar sesión en CreativeMind Studio',
+    subtitle: 'Experimente las mejores características de CreativeMind Studio: procesamiento de documentos más rápido y preservación avanzada de formato',
     terms: 'Al iniciar sesión, aceptas nuestros',
     termsLink: 'Términos de servicio y Política de privacidad',
     success: 'Inicio de sesión exitoso',
@@ -187,7 +199,18 @@ export default {
   },
   pricing: {
     title: 'Elija Su Plan',
-    subtitle: 'Experimente las mejores características de Ideafy AI: procesamiento de documentos más rápido y preservación avanzada de formatos',
+    subtitle: 'Las funciones básicas son gratuitas de por vida, actualice para desbloquear más funciones avanzadas',
+    freeTier: {
+      title: 'Gratuito',
+      description: 'Gratuito de por vida, uso ilimitado',
+      features: [
+        'Conversión creativa ilimitada',
+        'Generación básica de componentes interactivos',
+        'Velocidad de procesamiento estándar',
+        'Soporte comunitario'
+      ],
+      buttonText: 'Comenzar Ahora'
+    },
     monthly: 'Suscripción mensual',
     yearly: 'Suscripción anual (Ahorre 20%)',
     highTier: {

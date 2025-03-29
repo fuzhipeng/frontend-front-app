@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'Ideafy AI - KI-gestütztes kreatives Visualisierungstool',
+    home: 'CreativeMind Studio - KI-gestütztes kreatives Visualisierungstool',
     features: 'Funktionen',
     faq: 'FAQ',
     pricing: 'Preise',
@@ -8,13 +8,14 @@ export default {
     points: 'Punkte: {points}'
   },
   hero: {
-    title: 'Ideafy AI - KI-gestütztes kreatives Visualisierungstool',
-    subtitle: 'Verwandeln Sie Ihre kreativen Konzepte in hochwertige interaktive Prototypen. Beschreiben Sie einfach Ihre Ideen, und unsere KI erstellt automatisch professionelle, visuell ansprechende Interface-Prototypen, perfekt für Produktdesign, Usability-Tests und Teamzusammenarbeit.',
+    title: 'CreativeMind Studio - KI-gestütztes Visualisierungstool',
+    subtitle: 'Verwandeln Sie Ihre kreativen Ideen in ansprechende interaktive HTML-Komponenten. Beschreiben Sie einfach Ihre Ideen, und unsere KI erstellt automatisch professionelle, visuell ansprechende UI-Komponenten, perfekt für Produktpräsentationen, Benutzererfahrungstests und Teamarbeit. Grundfunktionen sind lebenslang kostenlos mit unbegrenzter Nutzung!',
     tags: {
-      ai: 'KI-Design',
-      interactive: 'Interaktiver Prototyp',
-      fast: 'Schnelle Generierung',
-      professional: 'Professionelles Ergebnis'
+      creative: 'Kreative Umwandlung',
+      interactive: 'Interaktive Komponenten',
+      easy: 'Einfach zu Bedienen',
+      professional: 'Professionelles Ergebnis',
+      free: 'Lebenslang Kostenlos'
     }
   },
   upload: {
@@ -31,10 +32,13 @@ export default {
   },
   input: {
     submit: 'Idee einreichen',
-    placeholder: 'Bitte beschreiben Sie Ihre kreativen Ideen und Hauptfunktionen...'
+    placeholder: 'Bitte beschreiben Sie Ihre kreativen Ideen und Hauptfunktionen...',
+    required: 'Bitte geben Sie Ihren kreativen Inhalt ein',
+    maxLength: 'Die Länge des Inhalts darf 2000 Zeichen nicht überschreiten',
+    needLogin: 'Bitte melden Sie sich an, um Ihre Idee einzureichen'
   },
   preview: {
-    title: 'Vorschau der Selbstvorstellungskarte',
+    title: 'Komponenten-Vorschau',
     download: 'HTML herunterladen',
     copy: 'HTML kopieren',
     copySuccess: 'Erfolgreich kopiert',
@@ -42,32 +46,36 @@ export default {
     noContent: 'Kein Inhalt'
   },
   features: {
-    title: 'Hauptfunktionen von Ideafy AI',
-    subtitle: 'Erleben Sie das Visualisierungstool der nächsten Generation - Intelligentes Design, professionelle Ergebnisse, Multi-Szenario-Anwendung',
+    title: 'Hauptfunktionen von CreativeMind Studio',
+    subtitle: 'Erleben Sie das Visualisierungstool der nächsten Generation - Intelligentes Design, professionelles Ergebnis, Multi-Szenario-Anwendungen, Grundfunktionen sind lebenslang kostenlos!',
     cards: {
-      ai: {
-        title: 'KI-Design',
-        desc: 'Verwendet fortschrittliche KI-Technologie, um kreative Anforderungen automatisch zu verstehen und professionelle Interface-Prototypen zu erstellen'
+      free: {
+        title: 'Lebenslang Kostenlos',
+        desc: 'Grundlegende kreative Umwandlungsfunktionen sind vollständig kostenlos ohne Nutzungsbeschränkungen, machen Kreativität für alle zugänglich'
+      },
+      creative: {
+        title: 'Kreative Umwandlung',
+        desc: 'Intelligente Umwandlung kreativer Beschreibungen in schöne interaktive HTML-Komponenten, Ideen schnell zum Leben erwecken'
       },
       interactive: {
-        title: 'Interaktiver Prototyp',
-        desc: 'Erstellt hochwertige interaktive Prototypen, die Benutzerinteraktion und Erlebnistests unterstützen'
+        title: 'Interaktive Komponenten',
+        desc: 'Generieren Sie hochwertige Komponenten mit Benutzerinteraktion für ansprechendere Präsentationen'
       },
       fast: {
         title: 'Schnelle Generierung',
-        desc: 'Erstellt vollständige Prototypen in Minuten und verbessert die Designeffizienz erheblich'
+        desc: 'Erstellen Sie in wenigen Minuten vollständige interaktive Komponenten und verbessern Sie die Designeffizienz erheblich'
       },
       professional: {
         title: 'Professionelles Ergebnis',
-        desc: 'Erstellt professionelle Prototypen, die Designstandards entsprechen und entwicklungsbereit sind'
+        desc: 'Generieren Sie professionelle Komponenten, die Designstandards entsprechen und entwicklungsbereit sind'
       },
       customizable: {
         title: 'Hochgradig anpassbar',
-        desc: 'Unterstützt benutzerdefinierte Stile, Interaktionen und Layouts für verschiedene Anforderungen'
+        desc: 'Unterstützung für benutzerdefinierte Stile, Interaktionen und Layouts für verschiedene Anforderungen'
       },
       shareable: {
         title: 'Einfaches Teilen',
-        desc: 'Teilen Sie Prototypen mit einem Klick für Teamzusammenarbeit und Feedback-Sammlung'
+        desc: 'Teilen Sie Komponenten mit einem Klick für Teamzusammenarbeit und Feedback-Sammlung'
       }
     },
     examples: {
@@ -119,12 +127,12 @@ export default {
     ]
   },
   faq: {
-    title: 'Häufig gestellte Fragen',
-    subtitle: 'Häufige Fragen zum KI-Selbstvorstellungskarten-Generator',
+    title: 'Häufig Gestellte Fragen',
+    subtitle: 'Häufige Fragen zur kreativen Umwandlung und Generierung interaktiver Komponenten',
     questions: [
       {
-        q: 'Wofür kann ich dieses Tool verwenden?',
-        a: 'Sie können professionelle Selbstvorstellungskarten für Social-Media-Profile, Bewerbungen, persönliche Websites oder jede andere Gelegenheit erstellen, bei der Sie sich präsentieren möchten.'
+        q: 'Ist dieses Tool kostenlos?',
+        a: 'Die Grundfunktionen sind vollständig kostenlos! Wir bieten einen lebenslang kostenlosen Service für kreative Umwandlung ohne Nutzungsbeschränkungen. Sie können unsere Grundfunktionen jederzeit nutzen, um kreative Ideen umzuwandeln. Wenn Sie erweiterte Funktionen benötigen (wie Stapelverarbeitung, API-Zugriff, etc.), bieten wir optionale kostenpflichtige Pläne an.'
       },
       {
         q: 'Gibt es Gebühren für die Nutzung dieses Tools?',
@@ -145,8 +153,8 @@ export default {
     loading: 'Wird geladen...'
   },
   workflow: {
-    title: 'So verwenden Sie Ideafy AI',
-    subtitle: '3 einfache Schritte zur Umwandlung von Ideen in Prototypen',
+    title: 'So verwenden Sie CreativeMind Studio',
+    subtitle: '3 einfache Schritte zur Umwandlung von Ideen in interaktive Komponenten',
     steps: {
       submit: {
         title: 'Idee einreichen',
@@ -154,17 +162,17 @@ export default {
       },
       generate: {
         title: 'KI-Generierung',
-        desc: 'KI analysiert automatisch die Anforderungen und erstellt den Prototyp'
+        desc: 'KI analysiert automatisch die Anforderungen und erstellt interaktive Komponenten'
       },
       preview: {
         title: 'Vorschau & Optimierung',
-        desc: 'Überprüfen Sie den Prototyp-Effekt und nehmen Sie Anpassungen vor'
+        desc: 'Überprüfen Sie die Komponenteneffekte und nehmen Sie Anpassungen vor'
       }
     }
   },
   login: {
-    title: 'Anmelden bei Ideafy AI',
-    subtitle: 'Erleben Sie die besten Funktionen von Ideafy AI: schnellere Dokumentenverarbeitung und erweiterte Formaterhaltung',
+    title: 'Anmelden bei CreativeMind Studio',
+    subtitle: 'Erleben Sie die besten Funktionen von CreativeMind Studio: schnellere Dokumentenverarbeitung und erweiterte Formaterhaltung',
     terms: 'Durch die Anmeldung stimmen Sie unseren',
     termsLink: 'Nutzungsbedingungen und Datenschutzrichtlinien zu',
     success: 'Anmeldung erfolgreich',
@@ -187,7 +195,18 @@ export default {
   },
   pricing: {
     title: 'Wählen Sie Ihren Plan',
-    subtitle: 'Erleben Sie die besten Funktionen von Ideafy AI: Schnellere Dokumentenverarbeitung und erweiterte Formaterhaltung',
+    subtitle: 'Grundfunktionen sind lebenslang kostenlos, upgraden Sie für mehr erweiterte Funktionen',
+    freeTier: {
+      title: 'Kostenlos',
+      description: 'Lebenslang kostenlos, unbegrenzte Nutzung',
+      features: [
+        'Unbegrenzte kreative Umwandlung',
+        'Grundlegende Generierung interaktiver Komponenten',
+        'Standard-Verarbeitungsgeschwindigkeit',
+        'Community-Support'
+      ],
+      buttonText: 'Jetzt Beginnen'
+    },
     monthly: 'Monatsabonnement',
     yearly: 'Jahresabonnement (20% sparen)',
     highTier: {

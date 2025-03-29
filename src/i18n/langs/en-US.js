@@ -1,6 +1,6 @@
 export default {
   nav: {
-    home: 'Ideafy AI - AI-Powered Creative Visualization Tool',
+    home: 'CreativeMind Studio - AI-Powered Creative Visualization Tool',
     features: 'Features',
     faq: 'FAQ',
     pricing: 'Pricing',
@@ -12,8 +12,8 @@ export default {
     loading: 'Loading...'
   },
   workflow: {
-    title: 'How to Use Ideafy AI',
-    subtitle: '3 Simple Steps to Transform Ideas into Prototypes',
+    title: 'How to Use CreativeMind Studio',
+    subtitle: '3 Simple Steps to Transform Ideas into Interactive Components',
     steps: {
       submit: {
         title: 'Submit Idea',
@@ -21,22 +21,23 @@ export default {
       },
       generate: {
         title: 'AI Generation',
-        desc: 'AI automatically analyzes requirements and creates prototype'
+        desc: 'AI automatically analyzes requirements and creates interactive components'
       },
       preview: {
         title: 'Preview & Optimize',
-        desc: 'Review prototype effect and make adjustments'
+        desc: 'Review component effects and make adjustments'
       }
     }
   },
   hero: {
-    title: 'Ideafy AI - AI-Powered Creative Visualization Tool',
-    subtitle: 'Transform your creative concepts into high-fidelity interactive prototypes. Simply describe your ideas, and our AI will automatically create professional, visually appealing interface prototypes, perfect for product design, user experience testing, and team collaboration.',
+    title: 'CreativeMind Studio - AI-Powered Creative Transformation Tool',
+    subtitle: 'Transform creative ideas into beautiful interactive HTML components. Simply describe your creative concepts, and our AI will automatically generate professional UI components, perfect for product presentations, user experience testing, and team collaboration. Basic features are permanently free with unlimited usage!',
     tags: {
-      ai: 'AI Design',
-      interactive: 'Interactive Prototype',
-      fast: 'Fast Generation',
-      professional: 'Professional Output'
+      creative: 'Creative Transformation',
+      interactive: 'Interactive Components',
+      easy: 'Easy to Use',
+      professional: 'Professional Output',
+      free: 'Permanently Free'
     }
   },
   upload: {
@@ -53,43 +54,50 @@ export default {
   },
   input: {
     submit: 'Submit Idea',
-    placeholder: 'Please describe your creative ideas and main features...'
+    placeholder: 'Please describe your creative ideas and main features...',
+    required: 'Please enter your creative content',
+    maxLength: 'Content length cannot exceed 2000 characters',
+    needLogin: 'Please login first to submit your idea'
   },
   preview: {
-    title: 'Preview Self Introduction Card',
+    title: 'Component Preview',
     download: 'Download HTML',
     copy: 'Copy HTML',
-    copySuccess: 'Copied Successfully',
-    copyError: 'Copy Failed',
-    noContent: 'No content available'
+    copySuccess: 'Copied successfully',
+    copyError: 'Copy failed',
+    noContent: 'No content'
   },
   features: {
-    title: 'Key Features of Ideafy AI',
-    subtitle: 'Experience Next-Generation Creative Visualization Tool - Smart Design, Professional Output, Multi-Scenario Application',
+    title: 'Key Features of CreativeMind Studio',
+    subtitle: 'Experience the next-generation visualization tool - Intelligent design, professional output, multi-scenario applications, basic features are permanently free!',
     cards: {
-      ai: {
-        title: 'AI Design',
-        desc: 'Uses advanced AI technology to automatically understand creative requirements and create professional interface prototypes'
+      free: {
+        title: 'Permanently Free',
+        desc: 'Basic creative transformation features are completely free with no usage limits, making creativity accessible to everyone'
+      },
+      creative: {
+        title: 'Creative Transformation',
+        desc: 'Intelligently convert creative descriptions into beautiful interactive HTML components, quickly bringing ideas to life'
       },
       interactive: {
-        title: 'Interactive Prototype',
-        desc: 'Creates high-quality interactive prototypes that support user interaction and experience testing'
+        title: 'Interactive Components',
+        desc: 'Generate high-quality components with user interaction support, making your presentations more engaging'
       },
       fast: {
         title: 'Fast Generation',
-        desc: 'Creates complete prototypes in minutes, significantly improving design efficiency'
+        desc: 'Create complete interactive components in minutes, significantly improving design efficiency'
       },
       professional: {
         title: 'Professional Output',
-        desc: 'Creates professional prototypes that meet design standards and are ready for development'
+        desc: 'Generate professional components that meet design standards and are ready for development'
       },
       customizable: {
         title: 'Highly Customizable',
-        desc: 'Supports custom styles, interactions, and layouts for different needs'
+        desc: 'Support custom styles, interactions, and layouts to meet different needs'
       },
       shareable: {
         title: 'Easy Sharing',
-        desc: 'Share prototypes with one click for team collaboration and feedback collection'
+        desc: 'Share components with one click for team collaboration and feedback collection'
       }
     },
     examples: {
@@ -142,8 +150,12 @@ export default {
   },
   faq: {
     title: 'Frequently Asked Questions',
-    subtitle: 'Common questions about AI Self Introduction Card Generator',
+    subtitle: 'Common questions about creative transformation and interactive component generation',
     questions: [
+      {
+        q: 'Is this tool free to use?',
+        a: 'Basic features are completely free! We offer permanently free creative transformation services with no usage limits. You can use our basic features anytime to transform your creative ideas. If you need more advanced features (like batch processing, API access, etc.), we offer optional paid plans.'
+      },
       {
         q: 'What can I use this tool for?',
         a: 'You can create professional self-introduction cards for social media profiles, job applications, personal websites, or any occasion where you need to present yourself.'
@@ -170,8 +182,8 @@ export default {
     details: 'Error Details'
   },
   login: {
-    title: 'Login to Ideafy AI',
-    subtitle: 'Experience the best features of Ideafy AI: faster document processing and advanced format preservation',
+    title: 'Login to CreativeMind Studio',
+    subtitle: 'Experience the best features of CreativeMind Studio: faster document processing and advanced format preservation',
     terms: 'By signing in, you agree to our',
     termsLink: 'Terms of Service and Privacy Policy',
     success: 'Login Successful',
@@ -187,7 +199,18 @@ export default {
   },
   pricing: {
     title: 'Choose Your Plan',
-    subtitle: 'Experience the best features of Ideafy AI: faster document processing and advanced format preservation',
+    subtitle: 'Basic features are permanently free, upgrade to unlock more advanced features',
+    freeTier: {
+      title: 'Free',
+      description: 'Permanently free, unlimited usage',
+      features: [
+        'Unlimited creative transformations',
+        'Basic interactive component generation',
+        'Standard processing speed',
+        'Community support'
+      ],
+      buttonText: 'Get Started'
+    },
     monthly: 'Monthly subscription',
     yearly: 'Annual subscription (Save 20%)',
     highTier: {

@@ -10,9 +10,9 @@
           <h1>{{ $t('hero.title') }}</h1>
           <p class="subtitle">{{ $t('hero.subtitle') }}</p>
           <div class="feature-tags">
-            <span class="tag">{{ $t('hero.tags.ai') }}</span>
+            <span class="tag">{{ $t('hero.tags.creative') }}</span>
             <span class="tag">{{ $t('hero.tags.interactive') }}</span>
-            <span class="tag">{{ $t('hero.tags.fast') }}</span>
+            <span class="tag">{{ $t('hero.tags.easy') }}</span>
             <span class="tag">{{ $t('hero.tags.professional') }}</span>
           </div>
         </div>
@@ -105,8 +105,8 @@
           <div class="features-grid">
             <div class="feature-card">
               <el-icon class="feature-icon"><magic-stick /></el-icon>
-              <h3>{{ $t('features.cards.ai.title') }}</h3>
-              <p>{{ $t('features.cards.ai.desc') }}</p>
+              <h3>{{ $t('features.cards.creative.title') }}</h3>
+              <p>{{ $t('features.cards.creative.desc') }}</p>
             </div>
             
             <div class="feature-card">
@@ -724,7 +724,7 @@ const startConvert = async () => {
     }
 
     // 发送请求
-    const response = await axios.post(`${apiBaseUrl.value}/api/file/stringUiData`, formData)
+    const response = await axios.post(`${apiBaseUrl.value}/api/file/stringFrontData`, formData)
     
     // 处理响应
     if (response.data.code === 200) {
